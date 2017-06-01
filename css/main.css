@@ -72,3 +72,17 @@ header{
   padding: 14px 70px;
   overflow: hidden;
 }
+
+#perfil{
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+  margin-top: 110px;
+}
+
+.link{
+	display: inline-block;
+	color: white;
+	margin: 5px;
+	font-size: 13px;
+}

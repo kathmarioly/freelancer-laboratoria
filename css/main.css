@@ -1,3 +1,74 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #00cca3;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+
+
+
+}
+
+ul li{
+	display: inline-block;
+	width: 10%;
+	font-weight: 700;
+  	padding: 2px;
+  	float: right;
+}
+
+ul li a{
+	display: inline-block;
+	color: white;
+	padding: 20px 20px;
+	text-decoration: none;
+	
+
+}
+
+li a:hover, .dropdown:hover, .dropbtn:hover{
+/*hover-estilo: cambiar el color del backgroun
+al pasar el cursor por el enlace. */
+background-color: #00cca3;
+color: #333;
+}
+.menu-container h4{
+  float: left;
+  padding: 0px 24px;
+  color: white;
+}
+header{
+  position: fixed;
+  background: gray;
+  width: 100%;
+  top: 0;
+}
+.menu{
+  padding: 14px 70px;
+  overflow: hidden;
+}

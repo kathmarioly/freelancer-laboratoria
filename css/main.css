@@ -69,7 +69,7 @@ header{
   top: 0;
 }
 .menu{
-  padding: 14px 70px;
+  padding: 5px 70px;
   overflow: hidden;
 }
 
@@ -103,4 +103,20 @@ header{
 
 .portfolio{
   text-align: center;
+}
+.work{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 20px 90px 10px 90px;
+}
+
+#about{
+	text-align: center;
+	color: white;
+	padding: 15px;
+}
+
+#parrafos{
+	display: inline-block;
 }

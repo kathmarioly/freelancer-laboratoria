@@ -109,14 +109,31 @@ header{
   text-align: center;
   color: black;
   padding: 20px 90px 10px 90px;
+	
 }
 
-#about{
-	text-align: center;
-	color: white;
-	padding: 15px;
-}
-
-#parrafos{
+.row:before, .row:after{
+	content: "";
 	display: inline-block;
+
 }
+.row:after{
+	clear: both;
+}
+[class*="col-"]{
+	min-height: 7px;
+	padding: 12px;	
+	color: white;
+
+
+}
+.col-12{
+	text-align: center;
+}
+.parrafo{
+	width: 25%;
+	float: right;
+	text-align: left;
+	
+	
+	}

@@ -86,3 +86,21 @@ header{
 	margin: 5px;
 	font-size: 13px;
 }
+
+#proyectos{
+  background-color: white;
+  text-align: center;
+  color: black;
+  padding: 70px 7px;
+}
+
+
+.box-proyectos{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+
+.portfolio{
+  text-align: center;
+}

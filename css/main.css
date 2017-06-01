@@ -80,6 +80,25 @@ header{
   margin-top: 110px;
 }
 
+.fa-star{
+	text-align: center;
+	color: white;
+	padding: 0;
+
+}
+
+.box-star{
+	display: inline-block;
+	color: white;
+}
+.rectangulo {
+	width: 100px;
+	height: 3px;
+	background: white;
+
+}
+
+
 .link{
 	display: inline-block;
 	color: white;
@@ -134,7 +153,7 @@ header{
 	width: 25%;
 	float: right;
 	text-align: left;
-	
+
 
 	
 	

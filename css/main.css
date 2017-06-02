@@ -66,6 +66,7 @@ header{
   position: fixed;
   background: gray;
   width: 100%;
+
   top: 0;
 }
 .menu{
@@ -78,6 +79,7 @@ header{
   color: #fff;
   padding: 70px 7px;
   margin-top: 110px;
+  height: 500px;
 }
 
 .fa-star{
@@ -111,14 +113,32 @@ header{
   text-align: center;
   color: black;
   padding: 70px 7px;
+
+}
+.box-star2{
+	display: inline-block;
+	color: white;
+}
+.rectangulo2 {
+	width: 100px;
+	height: 3px;
+	background: black;
+
 }
 
+.estrella{
+	text-align: center;
+	color: black;
+	padding: 0;
+
+}
 
 .box-proyectos{
   display: inline-block;
   width: 30%;
   margin-top: 63px;
 }
+
 
 .portfolio{
   text-align: center;
@@ -155,6 +175,19 @@ header{
 	text-align: left;
 
 
-	
-	
-	}
+}
+.star3{
+	display: inline-block;
+	text-align: center;
+}
+.boton{
+	border-color: white;
+	padding: 7px;
+	border: 2px;
+	border-color: white;
+	position: relative;
+	top: 200px;
+	left: 500px;
+
+}
+

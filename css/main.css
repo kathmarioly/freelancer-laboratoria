@@ -191,3 +191,13 @@ header{
 
 }
 
+.contacto{
+	width: 25%;
+	float: right;
+	text-align: left;
+}
+
+.star4{
+	display: inline-block;
+	text-align: center;
+}
